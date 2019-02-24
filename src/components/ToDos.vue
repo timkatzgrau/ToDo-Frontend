@@ -71,6 +71,7 @@ export default{
             description: this.description,
             user_ID: this.$store.getters.getUser
           })
+          this.description = ''
           this.getAllToDos()
         } catch (err) {
           this.error = err.response.data.error
