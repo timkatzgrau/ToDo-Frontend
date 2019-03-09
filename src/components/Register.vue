@@ -7,7 +7,7 @@
     <v-text-field type="text" name="username" placeholder="username" v-model="username"></v-text-field>
     </v-flex>
     <v-flex xs12 sm6 md3 class="text-xs-center">
-    <v-text-field type="text" name="password" placeholder="password" v-model="password"></v-text-field>
+    <v-text-field type="password" name="password" placeholder="password" v-model="password"></v-text-field>
     </v-flex>
     </form>
     <div class="error" v-html="error"></div>

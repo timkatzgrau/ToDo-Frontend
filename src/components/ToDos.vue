@@ -69,7 +69,7 @@ export default{
       try {
           await ToDoService.createToDo({
             description: this.description,
-            user_ID: this.$store.getters.getUser
+            user_id: this.$store.getters.getUser
           })
           this.description = ''
           this.getAllToDos()
